@@ -15,7 +15,7 @@ import com.live.live.service.LiveService;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(exposedHeaders="Access-Control-Allow-Origin")
 @RestController
 public class LiveController {
     @Autowired
